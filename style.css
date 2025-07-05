@@ -1,0 +1,81 @@
+html,body{
+    margin: 0px;
+    background-color:  #00CED1;
+    
+}
+.title{ 
+  text-align: center;
+  height: 40vh;
+  margin: 0;
+}
+.title h1{
+    font-size: 5rem;
+    margin-bottom: 10px;
+    margin-top: 0px;
+    color: #015153;
+}
+.title h2{
+    font-size: 3rem;
+    margin: 5px;
+    color:  #FFFBDE;
+}
+button{
+  border-radius: 15px;
+  border:0px #015153;
+  background-color: #015153;;
+}
+#game{
+  height: 55vh;
+  margin: 0;
+}
+.freckle{
+  font-family: "Freckle Face", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 3rem;
+  text-decoration:underline;
+  margin: 0;
+  margin-top: 10px;
+}
+.joti{
+  font-family: "Joti One", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.flex-row img{
+  height: 250px;
+  width: 250px;
+}
+.flex-row{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+@media (max-width:735px){
+   .title{
+    height: auto;
+   } 
+  .title h1{
+      font-size: 3rem;
+      margin-bottom: 10px;
+      margin-top: 20px;
+        line-height: 1;
+    }
+    .title h2{
+        font-size: 2rem;
+    }
+}
+@media (max-width:570px){
+  .flex-row img{
+    height: 200px;
+    width: 200px;
+  }
+}
+@media (max-width:420px){
+  .flex-row{
+    flex-direction: column;
+  }
+  #game{
+    height: auto;
+  }
+}
